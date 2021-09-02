@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`item.vue render should render component  1`] = `
+<div
+  class="basket-item"
+>
+  <article
+    class="basket-item__wrapper"
+  >
+    <div
+      class="basket-item__bloc-image"
+    >
+      <item-image-stub
+        srcsetobj="[object Object]"
+      />
+    </div>
+    <div>
+      <p>
+        <span
+          class="basket-item__ref"
+        >
+          ref: 166174
+        </span>
+      </p>
+      <h3>
+        Canapé-lit style scandinave 3 places gris clair
+      </h3>
+      <p>
+        <span
+          class="basket-item__price"
+        >
+          prix: 699,00 €
+        </span>
+      </p>
+      <div
+        class="basket-item__bloc-qty"
+      >
+        <button>
+          -
+        </button>
+        <input
+          class="basket-item__qty"
+          disabled=""
+          min="1"
+          type="number"
+        />
+        <button>
+          +
+        </button>
+      </div>
+      <button
+        class="basket-item__delete-item"
+        id="bt-delete"
+      >
+        Supprimer
+      </button>
+    </div>
+  </article>
+</div>
+`;
